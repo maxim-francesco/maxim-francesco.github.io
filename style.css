@@ -43,16 +43,15 @@ main{
 }
 
 #home h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 #home h2{
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 #home p{
-    font-size: 1.2rem;
-    /* text-align: center; */
+    font-size: 1.4rem;
     margin: 1% 10%;
 }
 
@@ -62,4 +61,29 @@ main{
 
 .buttons{
     display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#about p{
+    font-size: 1.5rem;
+}
+
+#about li{
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+#about img{
+    height: 300px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
 }
