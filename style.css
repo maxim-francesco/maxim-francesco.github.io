@@ -9,15 +9,28 @@
     color: #212121;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 header ul{
     display: flex;
+    margin: 0% 4%;
 }
 
 header ul li{
     margin: 10px;
 }
+
+/* main{
+    margin: 0% 8%;
+} */
