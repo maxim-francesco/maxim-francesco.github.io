@@ -41,6 +41,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15% 0;
 }
 
 #home h1{
