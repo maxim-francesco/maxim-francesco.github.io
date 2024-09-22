@@ -31,6 +31,35 @@ header ul li{
     margin: 10px;
 }
 
-/* main{
+main{
     margin: 0% 8%;
-} */
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    font-size: 2.5rem;
+}
+
+#home h2{
+    font-size: 2rem;
+}
+
+#home p{
+    font-size: 1.2rem;
+    /* text-align: center; */
+    margin: 1% 10%;
+}
+
+#home > *{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+}
