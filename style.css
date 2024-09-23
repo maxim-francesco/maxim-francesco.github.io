@@ -136,6 +136,20 @@ h1{
     padding: 5% 0;
 }
 
+#projects img{
+    width: 100%;
+    border: 1px solid #2121a8;
+}
+
+#projects h2{
+    font-size: 2rem;
+    color: #2121a8;
+}
+
+#projects div{
+    margin: 5% 0;
+}
+
 footer p{
     text-align: center;
 }
