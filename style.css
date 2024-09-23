@@ -34,6 +34,14 @@ header ul li{
     font-size: 1.4rem;
 }
 
+header ul li a:hover{
+    color: #2121a8;
+}
+
+header ul li a svg:hover{
+    background-color: #2121a8;
+}
+
 main{
     margin: 0% 8%;
 }
