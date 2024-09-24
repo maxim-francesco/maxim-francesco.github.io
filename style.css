@@ -154,6 +154,16 @@ footer p{
     text-align: center;
 }
 
+.top{
+    display: none;
+    position: fixed;
+    margin-top: 85vh;
+    right: 3%;
+    background-color: #2121a8;
+    padding: 10px;
+}
+
+
 @media only screen and (max-width: 1060px){
     *{
         font-size: 8px;
