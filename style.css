@@ -196,4 +196,8 @@ footer p{
     #experience h2{
         font-size: 1.7rem;
     }
+    .icons{
+        width: 16px;
+        height: 16px;
+    }
 }
