@@ -137,7 +137,7 @@ h1{
 }
 
 #projects img{
-    width: 100%;
+    width: 60%;
     border: 1px solid #2121a8;
 }
 
@@ -148,6 +148,10 @@ h1{
 
 #projects div{
     margin: 5% 0;
+}
+
+#projects p{
+    font-size: 1.2rem;
 }
 
 footer p{
@@ -161,6 +165,11 @@ footer p{
     right: 3%;
     background-color: #2121a8;
     padding: 10px;
+}
+
+.testing{
+    display: flex;
+
 }
 
 
