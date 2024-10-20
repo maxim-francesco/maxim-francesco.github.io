@@ -170,7 +170,7 @@ footer p{
 
 @media only screen and (max-width: 1060px){
     *{
-        font-size: 8px;
+        font-size: 6px;
     }
     #nav1{
         display: none;
