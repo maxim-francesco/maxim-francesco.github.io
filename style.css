@@ -167,6 +167,8 @@ footer p{
     padding: 10px;
 }
 
+
+
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -188,7 +190,6 @@ footer p{
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
-
 
 @media only screen and (max-width: 1060px){
     *{

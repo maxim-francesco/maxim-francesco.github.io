@@ -22,7 +22,7 @@
     },
     {
         "id": "tip-app",
-        "name": "Tip Game",
+        "name": "Tip App",
         "imgsrc": "tipap.png",
         "link": "TipApp",
         "description": "This simple and intuitive tip calculator app, built using HTML, CSS, and JavaScript, helps users quickly calculate the tip and total bill amount. Just input the bill amount, select the tip percentage, and the app instantly shows the total to pay and the per-person split if needed. It's a fast, user-friendly solution for hassle-free tipping."
