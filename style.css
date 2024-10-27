@@ -146,10 +146,6 @@ h1{
     color: #2121a8;
 }
 
-#projects div{
-    margin: 5% 0;
-}
-
 #projects p{
     font-size: 1.2rem;
 }
@@ -218,4 +214,76 @@ footer p{
         width: 16px;
         height: 16px;
     }
+}
+
+/* Slideshow Container */
+.slideshow-container {
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Slide Images */
+.slide {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+/* Next and Previous Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.prev {
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.next {
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Fade Transition for Slides */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+/* Dot Indicators */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.slide img{
+    max-height: 600px;
+}
+
+.slideshow-container h2{
+    margin: 30px 0;    
 }
